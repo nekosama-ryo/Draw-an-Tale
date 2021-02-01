@@ -1,0 +1,35 @@
+・メンバー
+　R小亀　諒	（プログラマー）リーダー
+　S佐々木　優貴	（プログラマー）
+　K経亀　義王	（プログラマー）
+
+・制作箇所
+スクリプト
+assets>script
+	>Book > Book(R)
+	>Door > ClearDoor(S、K)
+	>Fire > 全て(S)
+	>ink > 全て(K)
+	>Mask > 全て(S)
+	>Player > LegCollider(S)
+		Playercontroller(R、S、K)
+		ReSpawn(S)
+	>Setting > 全て(R)
+	>system >ClearMask(R)
+		 Pause(R)
+		 SepiaClear(S)
+		 Spritemask(S)
+	>Title> TitleManager(R、K)
+	　　　　他(K)
+	> Water > WaterObj(R)
+		WaterController(R)
+		WaterWheel(R)
+		他(アセット利用)
+	>Wind>Wind(K)
+
+スプライト
+　タイトルオブジェクト、タイトルロゴ(K)
+　設定画面のロゴなど(R)
+　プレイヤー（アセット）
+　ステージスプライト(R)
+　ドア、ステージUI、マスク(K)
